@@ -34,7 +34,7 @@
                 </div>
 
                 <!-- Dynamic Marketing Claims from config/store.php -->
-                <div class="grid grid-cols-3 gap-6 pt-8 border-t border-pink-900/50 max-w-md mx-auto lg:mx-0">
+                <div class="grid grid-cols-3 gap-6 pt-8 border-t border-white/20 max-w-md mx-auto lg:mx-0">
                     <div>
                         <p class="font-serif-luxury text-xl sm:text-2xl font-bold text-amber-300">{{ config('store.claims.longevity.value') }}</p>
                         <p class="text-[11px] text-pink-200/70 mt-0.5">{{ config('store.claims.longevity.label') }}</p>

@@ -28,7 +28,7 @@
             font-family: 'Playfair Display', serif;
         }
         .bg-pink-gold-gradient {
-            background: linear-gradient(135deg, #2D1527 0%, #4A1E3C 50%, #2D1527 100%);
+            background: linear-gradient(135deg, #7A1C4E 0%, #B8477D 45%, #D96E9F 75%, #8B2057 100%);
         }
         .bg-rose-gold {
             background: linear-gradient(135deg, #E8A5C8 0%, #D484B7 50%, #C25993 100%);
@@ -69,7 +69,7 @@
 </head>
 <body class="antialiased min-h-screen flex flex-col justify-between">
     <!-- Top Bar Notice -->
-    <div class="bg-pink-gold-gradient text-amber-100 text-xs py-2 px-4 text-center tracking-widest font-medium border-b border-pink-900/40">
+    <div class="bg-pink-gold-gradient text-amber-100 text-xs py-2 px-4 text-center tracking-widest font-medium border-b border-white/20">
         {{ config('store.top_bar_notice') }}
     </div>
 
@@ -209,9 +209,9 @@
     </main>
 
     <!-- Footer Pink Gold Luxury -->
-    <footer class="bg-pink-gold-gradient text-white pt-16 pb-8 border-t border-pink-900/50 mt-16">
+    <footer class="bg-pink-gold-gradient text-white pt-16 pb-8 border-t border-white/20 mt-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-pink-900/40">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/20">
                 <!-- Col 1: Brand Info -->
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
