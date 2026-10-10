@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1527" />
+      <stop offset="50%" stop-color="#4A1E3C" />
+      <stop offset="100%" stop-color="#2D1527" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8A5C8" />
+      <stop offset="50%" stop-color="#D484B7" />
+      <stop offset="100%" stop-color="#C25993" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="600" fill="url(#bgGrad)" />
+  
+  <circle cx="300" cy="300" r="240" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4" />
+  <circle cx="300" cy="300" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.6" />
+
+  <!-- Perfume Bottle Silhouette Icon -->
+  <g transform="translate(225, 140)">
+    <!-- Cap -->
+    <rect x="55" y="10" width="40" height="30" rx="4" fill="url(#goldGrad)" />
+    <!-- Spray Nozzle -->
+    <rect x="67" y="40" width="16" height="15" fill="#E8A5C8" opacity="0.8" />
+    <!-- Bottle Shoulder -->
+    <path d="M 30 75 Q 75 55 120 75 L 135 110 L 15 110 Z" fill="url(#goldGrad)" opacity="0.9" />
+    <!-- Main Bottle Body -->
+    <rect x="15" y="110" width="120" height="180" rx="16" fill="url(#goldGrad)" opacity="0.85" />
+    <!-- Inner Label Frame -->
+    <rect x="35" y="140" width="80" height="120" rx="8" fill="#2D1527" stroke="url(#goldGrad)" stroke-width="1.5" />
+    <text x="75" y="185" text-anchor="middle" fill="#E8A5C8" font-family="'Playfair Display', serif" font-size="14" font-weight="bold" letter-spacing="3">PARFUM</text>
+    <text x="75" y="210" text-anchor="middle" fill="#FFFFFF" font-family="'Playfair Display', serif" font-size="18" font-weight="bold" letter-spacing="4">IDF</text>
+    <circle cx="75" cy="235" r="3" fill="#E8A5C8" />
+  </g>
+
+  <!-- Watermark Text -->
+  <text x="300" y="475" text-anchor="middle" fill="#E8A5C8" font-family="'Playfair Display', serif" font-size="20" font-weight="600" letter-spacing="4" opacity="0.9">PARFUM IDF LUXURY</text>
+  <text x="300" y="505" text-anchor="middle" fill="#FDF8F5" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="400" letter-spacing="2" opacity="0.6">HAUTE PARFUMERIE COLLECTION</text>
+</svg>
